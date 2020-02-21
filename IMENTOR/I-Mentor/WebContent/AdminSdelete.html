@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SEARCH</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>	
+	body{       background-image: url(), url(image2.jpg);
+    		background-position: right bottom, left top;
+                background-repeat: no-repeat, repeat;
+                padding: 20px;
+            }
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="home.html">I MENTOR</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="home.html">Home</a></li>
+      </ul>
+</nav> 
+ <h1 align="center"> ENTER THE STUDENT NAME TO DELETE</h1><br><br>
+	 <div class="content">
+         <form method="post" action="./Adminsdelete" align="center">
+        <tr >
+<td><b>NAME</b></td>
+<td><input type="text" name="sname" onblur="validateFirstName(this)" placeholder="Enter name" ></td>
+<td>
+</tr><br>
+<br>
+<br>
+<button type="submit">DELETE</button>
+</form>
+   
+         </div>
+</body>
+</html>
